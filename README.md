@@ -10,6 +10,8 @@ we use `aptos-core` as local dep, use subgitmodules
 git submodule init 
 git submodule update
 
+git switch devnet # switch devnet branch
+
 # or 
 git submodule update --init --recursive  
 ```
