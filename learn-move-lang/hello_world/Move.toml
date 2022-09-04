@@ -1,0 +1,10 @@
+[package]
+name = 'hello_world'
+version = '1.0.0'
+
+[addresses] # this section must be addresses
+hello_world = "_"
+
+[dependencies]
+# local AptosFramework dep
+AptosFramework = { local = "../../aptos-core/aptos-move/framework/aptos-framework" }
