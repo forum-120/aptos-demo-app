@@ -7,4 +7,4 @@ hello_blockchain = "_"
 
 [dependencies]
 # local AptosFramework dep
-AptosFramework = { local = "/Users/davirain/learn-move/aptos-core/aptos-move/framework/aptos-framework" }
+AptosFramework = { local = "../aptos-core/aptos-move/framework/aptos-framework" }
