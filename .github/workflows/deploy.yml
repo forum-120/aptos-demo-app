@@ -13,10 +13,10 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@v2
 
-      # TODO: add a build step here
+      # TODO: add a build step here 
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "aptos-demo-app"
+          project: "src"
           entrypoint: "./index.tsx" # TODO: update entrypoint
