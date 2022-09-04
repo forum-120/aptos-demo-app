@@ -1,0 +1,10 @@
+[package]
+name = "Examples"
+version = "1.0.0"
+
+[addresses]
+hello_blockchain = "_"
+
+[dependencies]
+# local AptosFramework dep
+AptosFramework = { local = "/Users/davirain/learn-move/aptos-core/aptos-move/framework/aptos-framework" }
