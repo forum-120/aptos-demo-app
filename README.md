@@ -1,5 +1,13 @@
 # Aptos-denom 
 
+## Pre
+- install this wallet: https://petra.app/
+- create a account 
+- faucte some apt token
+
+you will look at petra wallet about this account, public key, private key and account. 
+you need update hello_blockchain/.aptos/config.toml this fileds. and update run.sh hello_blockchain={address}, to you account.
+
 ## Hello, Blockchain denom  
 
 we use `aptos-core` as local dep, use subgitmodules 
